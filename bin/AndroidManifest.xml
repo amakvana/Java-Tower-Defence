@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.towerdefence"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.example.towerdefence.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.towerdefence.MainMenu"
+            android:label="@string/app_name"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="com.example.towerdefence.LevelSelectActivity"
+            android:label="@string/title_activity_level_select"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="com.example.towerdefence.Level1Activity"
+            android:label="@string/title_activity_level1"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="com.example.towerdefence.Level2Activity"
+            android:label="@string/title_activity_level1"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+        <activity
+            android:name="com.example.towerdefence.Level3Activity"
+            android:label="@string/title_activity_level1"
+            android:screenOrientation="sensorLandscape" >
+        </activity>
+    </application>
+
+</manifest>
