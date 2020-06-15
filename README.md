@@ -1,4 +1,4 @@
-# Java-Tower-Defence
+# Java Tower Defence
 
 <ins>A University Project</ins>
 
